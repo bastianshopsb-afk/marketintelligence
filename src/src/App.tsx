@@ -1,5 +1,19 @@
+import React from 'react'; 
 import React, { useState, useEffect, useRef } from 'react';
-import { TrendingUp, TrendingDown, AlertCircle, RefreshCw, ChevronDown, ChevronUp, Bell, Filter, History, BarChart3, Volume2, Calendar } from 'lucide-react';
+import { 
+  TrendingUp, 
+  TrendingDown, 
+  AlertCircle, 
+  RefreshCw, 
+  ChevronDown, 
+  ChevronUp, 
+  Bell, 
+  Filter, 
+  History, 
+  BarChart3, 
+  Volume2, 
+  Calendar 
+} from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
 
 const NasdaqNewsAnalyzer = () => {
